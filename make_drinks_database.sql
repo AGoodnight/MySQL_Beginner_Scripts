@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS drinks;
+
+USE drinks;
+
+CREATE table tea (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  tea_name VARCHAR(100) NOT NULL,
+  tea_type VARCHAR(100)
+);
+
+CREATE table soda (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  soda_name VARCHAR(100) NOT NULL,
+  soda_type VARCHAR(100)
+);
